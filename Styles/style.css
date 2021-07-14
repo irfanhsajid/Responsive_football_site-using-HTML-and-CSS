@@ -1,5 +1,5 @@
 /* ..........fonts.......... */
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 *{
@@ -13,7 +13,7 @@
 .header{
 height: 650px;
 display: flex;
-background-color: #2D25A0;;
+background-color: #2D25A0;
 }
 .half-width {
     width: 50%;
@@ -120,6 +120,62 @@ line-height: 90px;
     
 }
 /* .........Players gallery Style ends....................... */
+
+/* ................favourite player selection style starts............. */
+.favourite-players h2{
+    text-align: center;
+    margin: 25px 0px;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+.star-players{
+    display: flex;
+    background-color: #ee6a9a;
+    padding: 20px;
+   
+}
+.selection-part{
+    margin-right: 20px;
+    margin-top: 30px; 
+}
+.selection-part p{
+    padding: 5px;
+    font-size: 20px;
+    color: #18191F;
+}
+.selection-part input{
+    margin-right: 5px;
+}
+
+.opinion-part h3{
+    padding: 5px;
+    /* color: #18191F; */
+    color: #342ca0;
+}
+.opinion-part textarea{
+    width: 1054px;
+    height: 340px;
+    padding: 5px;
+    font-size: 17px;
+}
+.opinion-part button{
+    padding: 2px 12px;
+    text-align: center;
+    color: #d8d6d6;
+    background-color: #2D25A0;
+    outline: none;
+}
+#reset{
+    margin-left: 10px;
+}
+#selection{
+    order: 1;
+}
+#opinion{
+    order:2;
+    flex-grow: 1;
+}
+/* ................favourite player selection style ends............. */
 
  /*.................
          Copa 2021 section Starts 
@@ -237,7 +293,8 @@ margin-bottom: 100px;
 /* ..................Media Query starts.............. */
 
 /*....For Mobile Devices.... */
-@media only screen and (max-width:525px){
+@media only screen and (max-width:688px){
+    /* .............. header style .............. */
     .header{ 
         height: 100vh;
         display: flex;
@@ -264,6 +321,16 @@ margin-bottom: 100px;
         grid-template-columns: repeat(1,1fr);
         grid-gap: 35px 30px; 
     }
+    /*......... favourite players style .......... */
+    .star-players{
+        display: flex;
+        flex-direction: column;
+    }
+    .opinion-part textarea{
+        width: 345px;
+        height: 120px;
+    }
+    /*.......... copa2021 section style ........... */
     .copa2021{
        margin-top: 0px;
         display: flex;
@@ -280,6 +347,7 @@ margin-bottom: 100px;
     margin-top: 10px;
     margin-left: 5%;
     }
+    /*......... footer style....... */
     .foot-container{
         display: flex;
         flex-direction: column;
