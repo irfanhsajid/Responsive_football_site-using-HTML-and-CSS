@@ -1,5 +1,4 @@
-/* ..........fonts.......... */
-/* fonts */
+/*---------------- fonts----------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 *{
@@ -124,9 +123,7 @@ line-height: 90px;
 }
 /* .........Players gallery Style ends....................... */
 
- /*.................
-         Copa 2021 section Starts 
-....................................... */
+ /*................. Copa 2021 section Starts....................... */
 .copa2021{
 display: flex;
 margin-top: 100px;
@@ -181,9 +178,7 @@ margin-bottom: 100px;
 .half-part img{
     width: 100%;
 }
- /*.................
-         Copa 2021 section Ends
-....................................... */
+ /*.......................Copa 2021 section Ends............................ */
 
 /* --------------footer Style Starts----------- */
 .foot-container{
