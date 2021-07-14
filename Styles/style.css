@@ -1,4 +1,5 @@
-/*---------------- fonts----------------- */
+/* ..........fonts.......... */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 *{
@@ -123,7 +124,9 @@ line-height: 90px;
 }
 /* .........Players gallery Style ends....................... */
 
- /*................. Copa 2021 section Starts....................... */
+ /*.................
+         Copa 2021 section Starts 
+....................................... */
 .copa2021{
 display: flex;
 margin-top: 100px;
@@ -178,7 +181,9 @@ margin-bottom: 100px;
 .half-part img{
     width: 100%;
 }
- /*.......................Copa 2021 section Ends............................ */
+ /*.................
+         Copa 2021 section Ends
+....................................... */
 
 /* --------------footer Style Starts----------- */
 .foot-container{
@@ -231,3 +236,62 @@ margin-bottom: 100px;
     top: -15px;
 }
 /* --------------footer Style Ends----------- */
+
+/* ..................Media Query starts.............. */
+
+/*....For Mobile Devices.... */
+@media only screen and (max-width:525px){
+    .header{ 
+        padding-top: 5%;
+        /* width: 100%; */
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 25%;
+    }
+    .half-width{
+        width: 100%;
+       
+    }
+    .half-width img{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .half-width .half-text-area h2{
+        color: white; 
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 60px;
+        }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 35px 30px; 
+    }
+    .copa2021{
+       margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .half-part{
+        width: 90%;
+    }
+    .half-text img{
+        width: 110%;
+    }
+    .foot-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot-container .logo{
+        transform: scale(0.4);
+    }
+    .foot-container .copyright{
+        left: 30px;
+    }
+
+}
