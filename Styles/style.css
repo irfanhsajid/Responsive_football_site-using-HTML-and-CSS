@@ -12,14 +12,14 @@
 
 .header{
 width: 1440px;
-height: 677px;
+height: 650px;
 display: flex;
 background-color: #2D25A0;;
 }
 .half-width {
     width: 50%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 10%;
     margin-top: 5%;
 }
 .half-text-area{
@@ -42,7 +42,7 @@ line-height: 90px;
 }
 
 .half-width .btn{
-    margin-top: 20px;
+    margin-left: 5px;  margin-top: 20px;
     padding: 10px 24px;
     width: 168px;
     height: 44px;
@@ -74,10 +74,107 @@ line-height: 90px;
     
 }
 .half-width img{
-    width: 95%;
+    width: 100%;
+    margin-top: 15px;
 }
 .half-width img:hover{
     transform: scale(.9) skew(-35deg);
     transition: transform .7s ease-in-out; 
 }
 /* ............Header Style Ends........... */
+
+/* .........Players gallery Style Starts............. */
+
+
+.players-gallery{
+    width: 1050px;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-bottom: 30px;
+  
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 45px 40px; 
+}
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 5px 5px 25px #d1d6d6;
+    overflow: hidden;
+    padding: 10px ;
+    
+}
+.player img{
+    width: 100%;
+}
+.player h2{
+    margin-top: 10px;
+    font-size: 28px;
+    color:#18191F;
+}
+.player p{
+    margin-top: 5px;
+    font-size: 16px;
+    color:#6C6C6C ;
+    
+}
+/* .........Players gallery Style ends....................... */
+
+ /*.................
+         Copa 2021 section Starts 
+....................................... */
+.copa2021{
+display: flex;
+width: 1440px;
+margin-top: 100px;
+margin-bottom: 100px;
+    
+}
+.copa2021 .copa h2{
+    color: #18191F;
+}
+
+.half-part{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.half-part .half-text{
+  
+    margin-left: 5%;
+}
+.half-text h2{ 
+    font-weight: bold;
+    font-size: 45px;
+   line-height: 75px;
+    }
+    .half-text p{
+        font-size: 16px;
+        color: #6C6C6C;
+    }
+.half-part button{
+        margin-left: 5%;
+        margin-top: 20px;
+        padding: 10px 24px;
+        width: 168px;
+        height: 44px;
+        color: whitesmoke;
+        font-size: 15px;
+        background-color: #E02C6D;
+        border: none;
+        border-radius: 3px;  
+    }
+    .half-part button a{
+        text-decoration: none;
+        color: white;
+        letter-spacing: 1px;
+    }
+.half-part img{
+    width: 95%;
+}
+ /*.................
+         Copa 2021 section Starts 
+....................................... */
