@@ -86,14 +86,11 @@ line-height: 90px;
 /* ............Header Style Ends........... */
 
 /* .........Players gallery Style Starts............. */
-
-
 .players-gallery{
     margin-top: 50px;
     margin-right: 5%;
     margin-left: 8%;
     margin-bottom: 30px;
-  
 }
 .players{
     display: grid;
@@ -273,6 +270,7 @@ margin-bottom: 100px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 0px;
     }
     .half-part{
         width: 90%;
