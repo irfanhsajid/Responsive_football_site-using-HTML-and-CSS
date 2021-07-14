@@ -35,7 +35,7 @@ line-height: 90px;
 
 .half-width .half-text-area h2:hover{
     background: linear-gradient(to right,#f1f3f3 0%,#E02C6D 80%);
-    -webkit-background-clip: text;
+    -webkit-background-clip:text;
 	-webkit-text-fill-color: transparent;
     transform:  scale(1) rotate(360deg);
     transition: all 1s ease-in-out;
@@ -176,5 +176,57 @@ margin-bottom: 100px;
     width: 95%;
 }
  /*.................
-         Copa 2021 section Starts 
+         Copa 2021 section Ends
 ....................................... */
+
+/* --------------footer Style Starts----------- */
+.foot-container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.foot-container .logo{
+    transform: scale(0.5);
+}
+.foot-container .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -35px;
+    margin-left: 70px;
+}
+.icon{
+   color: #d1d6d6;
+    text-align: center;
+    margin: 5px;
+    height: 32px;
+    width: 32px;
+    font-size: 16px;
+    background-color:#746c6c ;
+    border-radius: 50px;
+}
+.icon a{
+    text-decoration: none;
+    color:white ;
+}
+.icon:hover{
+    background-color: #E02C6D;
+    color: white;
+    transform: scale(1.2);
+    transition: all 0.2s linear;
+    box-shadow: 5px 5px 15px #615959;
+}
+.icon i{
+    margin-top: 8px;
+}
+
+.copyright{
+    position: relative;
+    top: -30px;
+    left: 40px;
+    letter-spacing: 5px;
+    top: -15px;
+}
+/* --------------footer Style Ends----------- */
