@@ -11,7 +11,6 @@
 /* ............Header Style Starts........... */
 
 .header{
-/* width: 1440px; */
 height: 650px;
 display: flex;
 background-color: #2D25A0;;
@@ -19,11 +18,11 @@ background-color: #2D25A0;;
 .half-width {
     width: 50%;
     margin-left: 5%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: 5%;
 }
 .half-text-area{
-    margin-top: 55px;
+    margin-top: 70px;
 }
 
 .half-text-area h2{
@@ -52,6 +51,7 @@ line-height: 90px;
     border: none;
     border-radius: 3px;  
 }
+
 .half-width .btn:hover{
     background-color: white;
     color:#E02C6D;
@@ -60,26 +60,28 @@ line-height: 90px;
     cursor: pointer;
     box-shadow: 5px 5px 8px #d8d6d6 , 5px 5px 20px whitesmoke;
 }
-.half-width .btn a{
+/*....... header part + copa 2021 part button style.........................*/
+.half-width .btn a , .half-part .btn2 a{
     text-decoration: none;
     color: white;
     letter-spacing: 1px;
 }
-.half-width .btn:hover a{
+.half-width .btn:hover a,.half-part .btn2:hover a {
     color: #E02C6D;
 }
-.half-width .btn .fas{
+.btn .fas , .btn2 .fas{
     margin-left: 2px;
-    font-size: 13px;
-    
+    font-size: 12px;   
 }
+/*....... header part + copa 2021 part button style ends...................*/
+
 .half-width img{
     width: 100%;
     margin-top: 15px;
 }
 .half-width img:hover{
-    transform: scale(.9) skew(-35deg);
-    transition: transform .7s ease-in-out; 
+    transform: scale(.9) skew(-40deg);
+    transition: transform .6s ease-in-out; 
 }
 /* ............Header Style Ends........... */
 
@@ -87,7 +89,6 @@ line-height: 90px;
 
 
 .players-gallery{
-    /* width: 1050px; */
     margin-top: 50px;
     margin-right: 5%;
     margin-left: 8%;
@@ -128,7 +129,6 @@ line-height: 90px;
 ....................................... */
 .copa2021{
 display: flex;
-/* width: 1440px; */
 margin-top: 100px;
 margin-bottom: 100px;
     
@@ -140,11 +140,11 @@ margin-bottom: 100px;
 .half-part{
     width: 50%;
     margin-left: 5%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: 5%;
 }
 .half-part .half-text{
-  
+   margin-top: 50px;
     margin-left: 5%;
 }
 .half-text h2{ 
@@ -152,11 +152,12 @@ margin-bottom: 100px;
     font-size: 45px;
    line-height: 75px;
     }
+
     .half-text p{
         font-size: 16px;
         color: #6C6C6C;
     }
-.half-part button{
+.half-part .btn2{
         margin-left: 5%;
         margin-top: 20px;
         padding: 10px 24px;
@@ -168,11 +169,15 @@ margin-bottom: 100px;
         border: none;
         border-radius: 3px;  
     }
-    .half-part button a{
-        text-decoration: none;
-        color: white;
-        letter-spacing: 1px;
+    .half-part .btn2:hover{
+    background-color: white;
+    color:#E02C6D;
+    border-radius: 30px;
+    transition: all .5s ease-in;
+    cursor: pointer;
+    box-shadow: 5px 5px 8px #f34b89  , 5px 5px 20px #E02C6D;
     }
+
 .half-part img{
     width: 100%;
 }
