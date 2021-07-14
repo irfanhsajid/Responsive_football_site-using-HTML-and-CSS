@@ -11,7 +11,7 @@
 /* ............Header Style Starts........... */
 
 .header{
-width: 1440px;
+/* width: 1440px; */
 height: 650px;
 display: flex;
 background-color: #2D25A0;;
@@ -87,16 +87,17 @@ line-height: 90px;
 
 
 .players-gallery{
-    width: 1050px;
+    /* width: 1050px; */
     margin-top: 50px;
-    margin-left: 5%;
+    margin-right: 5%;
+    margin-left: 8%;
     margin-bottom: 30px;
   
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 45px 40px; 
+    grid-gap: 35px 30px; 
 }
 .player{
     width: 330px;
@@ -127,7 +128,7 @@ line-height: 90px;
 ....................................... */
 .copa2021{
 display: flex;
-width: 1440px;
+/* width: 1440px; */
 margin-top: 100px;
 margin-bottom: 100px;
     
@@ -173,7 +174,7 @@ margin-bottom: 100px;
         letter-spacing: 1px;
     }
 .half-part img{
-    width: 95%;
+    width: 100%;
 }
  /*.................
          Copa 2021 section Ends
