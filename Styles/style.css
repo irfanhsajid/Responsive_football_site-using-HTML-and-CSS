@@ -242,13 +242,11 @@ margin-bottom: 100px;
 /*....For Mobile Devices.... */
 @media only screen and (max-width:525px){
     .header{ 
-        padding-top: 5%;
-        /* width: 100%; */
         height: 100vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding-bottom: 25%;
+        padding-bottom: 6%;
     }
     .half-width{
         width: 100%;
@@ -280,7 +278,9 @@ margin-bottom: 100px;
         width: 90%;
     }
     .half-text img{
-        width: 110%;
+    width: 110%;
+    margin-top: 10px;
+    margin-left: 5%;
     }
     .foot-container{
         display: flex;
@@ -291,7 +291,7 @@ margin-bottom: 100px;
         transform: scale(0.4);
     }
     .foot-container .copyright{
-        left: 30px;
+        left: 25px;
     }
 
 }
